@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ocodia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ocodia.com
+  * I am ocodia (https://keybase.io/ocodia) on keybase.
+  * I have a public key ASDscBDyVE4Lf2SJAaiQJXAb3EjO_IftyIq7zRYD4gvDKwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010177d5a749ddc55f7ce7104bbbb47d3334e1ff42db0edec3ced65a72606bcafdb20a",
+      "host": "keybase.io",
+      "kid": "0120ec7010f2544e0b7f648901a89025701bdc48cefc87edc88abbcd1603e20bc32b0a",
+      "uid": "6fb37bf8e898131c2aeb13a0921e3c19",
+      "username": "ocodia"
+    },
+    "merkle_root": {
+      "ctime": 1557758273,
+      "hash": "dba37c7fc1e95b96cc900466f81794c667d85e7feed58e46b89e564936d3a5e2d12a32072b9b4fbcdb8060bab00642e29ff8a83cfc0c6f465f5de272d8865727",
+      "hash_meta": "1ff8afbe441e64ad226a9bffa3e510703d56c067cb398bf7aff1eb8f0978797d",
+      "seqno": 5360651
+    },
+    "service": {
+      "entropy": "EymUEvMkAc6MJa73uusiaf5e",
+      "hostname": "ocodia.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1557758290,
+  "expire_in": 504576000,
+  "prev": "ca3e6050bea6e6266dd0a41f041567310aef8868c6d89a94b1cec5e1c1fe19a8",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7HAQ8lROC39kiQGokCVwG9xIzvyH7ciKu80WA+ILwysKp3BheWxvYWTESpcCD8Qgyj5gUL6m5iZt0KQfBBVnMQrviGjG2JqUsc7F4cH+GajEIMv5DLlWVz53CaFeLMtziu5uEAYCjEHK6gvvYAqRj5DZAgHCo3NpZ8RAur/F8pctgE4m5kmljvmFoaClmFLnfATgeDcDUuEMDIcIDUbkKJjsQncXE7nFBg/mZSyRMGnOig+DgEJMp6k2DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFYtYlZ8KzLlpssN83tSY+9/xseTXjE81tCfMjvbDXfIo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ocodia
+
+==================================================================
