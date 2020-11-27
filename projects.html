@@ -28,45 +28,69 @@
     <main>
       <section id="content" aria-label="Site content area">
         <h1>Projects</h1>
-<ol>
-    <li><a href="#FalkirkGovUk">Falkirk.gov.uk</a></li>
-    <li><a href="#MyFalkirk">My Falkirk</a></li>
-    <li><a href="#CML">Check My Links</a></li>
-</ol>
-        <h2 id="FalkirkGovUk">Falkirk.gov.uk</h2>
-        
-        <p>
-          Falkirk is one of 32 unitary authority council areas of Scotland.
-          Falkirk Council provide over 600 distinct services to local residents (160k) and
-          businesses.
-        </p>
-        <p>
-          The Council website is approximately 4k pages of HTML content and 2.5k
-          PDF documents. It averages around 600k page views per month.
-        </p>
+        <ol id="toc"></ol>
+        <h2>Falkirk.gov.uk</h2>
+        <p>Falkirk is one of 32 unitary authority council areas of Scotland.</p>
         <p><a href="https://falkirk.gov.uk">www.falkirk.gov.uk</a></p>
-<hr>
-        <h2 id="MyFalkirk">My Falkirk</h2>
+        <hr />
+        <h2>My Falkirk</h2>
         <p>
-          My Falkirk is Falkirk Council's self-service portal for
-          residents and businesses. It provides over 100 digital services, such as:
+          My Falkirk is Falkirk Council's self-service portal for residents and
+          businesses. It provides over 100 digital services, including:
         </p>
-          <ul>
-              <li>Pay my Council Tax</li>
-              <li>Report a missed bin collection</li>
-              <li>Report a pothole</li>
-          </ul>
-          <p>It also allows users to view their Council Tax, Rent and Benefit accounts.</p>
+        <ul>
+          <li>Pay my Council Tax</li>
+          <li>Report a missed bin collection</li>
+          <li>Report a pothole</li>
+        </ul>
+        <p><a href="https://my.falkirk.gov.uk">my.falkirk.gov.uk</a></p>
 
-          <p><a href="https://my.falkirk.gov.uk">my.falkirk.gov.uk</a></p>
+        <hr />
 
-        <hr>
+        <h2>Check My Links</h2>
+        <p>
+          <a
+            href="https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf"
+          >
+            Check My Links
+          </a>
+          is a Google Chrome Extension that validates hyperlinks on webpages.
+        </p>
 
-        <h2 id="CML">Check My Links</h2>
-        <p><a href="https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf">Check My Links</a> is a Google Chrome Extension that validates hyperlinks on webpages.</p>
-        <p>I published the source code on GitHub in <a href="https://github.com/PageModifiedOfficial/Check-My-Links/commit/3138937e995144b7b6464032d40b11fc6bbb9da2">2012</a> and managed the project for 5 years. I built it with fellow web content editors in mind, but it became popular with SEO professionals and eventually had over 190k users. </p><p> The project was acquired by a web auditing/SEO company in 2017. I no longer participate in its development or support.</p>
+        <p>
+          The extension is popular with SEO professionals and has over 190k
+          users. It was acquired by a web auditing/SEO company in 2017. I no
+          longer participate in its development or support.
+        </p>
+
+        <hr />
+
+        <h2>AutoToc</h2>
+        <p>
+          <a href="https://ocodia.github.io/AutoToc/">AutoToc</a> is a
+          JavaScript that automatically creates a linked table of contents
+          based on the heading tags within a web page.
+        </p>
+        <p>
+          The source code is available on
+          <a href="https://github.com/ocodia/AutoToc">Github</a>.
+        </p>
+        <hr />
+        <h2>Husk</h2>
+        <p>
+          <a href="https://ocodia.github.io/Husk/">Husk</a> is a 'classless' CSS
+          stylesheet.
+        </p>
+        <p>
+          The source code is available on
+          <a href="https://github.com/ocodia/Husk">Github</a>.
+        </p>
       </section>
     </main>
     <footer></footer>
+    <script src="assets/js/AutoToc.js"></script>
+    <script>
+      AutoToc("toc", "content", { startLevel: 2, showTopLinks: true });
+    </script>
   </body>
 </html>
